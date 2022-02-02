@@ -10,7 +10,11 @@ import VueRouter from 'vue-router'
 import Layout from '../layout/index'
 
 Vue.use(VueRouter)
-
+/**
+ * router's config for reference only
+ * if there are other needs you can refer to Vue Router Official website
+ * @type {[{redirect: string, path: string, component: {components: {Navbar: {data(): {mane: string}, watch: {"$refs.locale.value"(*=): void}, methods: {changeLang(): void}, name: string}, Footer: {name: string}, Main: {name: string}}, name: string}, children: [{path: string, component: (function(): Promise<{readonly default?: {data(): {articleArr: []}, created(): void, methods: {getArticle(): void}, name: string, filters: {omitContent(*): string}}}>), meta: {title: string}, name: string}, {path: string, component: (function(): Promise<{readonly default?: {name: string}}>), meta: {title: string}, name: string}]}, {path: string, component: (function(): Promise<*>), hidden: boolean}, {redirect: string, path: string, hidden: boolean}]}
+ */
 const routes = [
     {
         path: '/',
@@ -28,7 +32,13 @@ const routes = [
                 name: 'about',
                 component: () => import('../views/about/index.vue'),
                 meta: {title: 'about'}
-            }
+            },
+            {
+                path: 'details',
+                name: 'details',
+                component: () => import('../views/home/details/index.vue'),
+                meta: {title: 'details'}
+            },
         ]
     },
     {

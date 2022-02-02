@@ -5,7 +5,7 @@
         <wired-card cardelevation="5">
           <strong class="fontSize">{{item.Name}}</strong>
           <p>{{item.content | omitContent}}</p>
-          <button>{{ $t('Details') }}</button>
+          <button @click="toDetails(item.id)">{{ $t('Details') }}</button>
           <span class="timeStyle">{{$t('time')}}：{{item.date}}</span>
         </wired-card>
       </div>
@@ -31,10 +31,31 @@ export default {
   },
   filters:{
     omitContent(e){
+      /**
+       * @file: index.vue
+       * @method omitContent
+       * params:
+       * return:
+       * @description:  split 1-100‘s string
+       * @author: linnaishierhuachuan
+       * @date: 2022/2/2
+       */
       return e.slice(1, 100)+'……'
     }
   },
   methods: {
+    toDetails(id){
+      /**
+       * @file: index.vue
+       * @method toDetails
+       * params:
+       * return:
+       * @description: link to Details of article
+       * @author: linnaishierhuachuan
+       * @date: 2022/2/2
+       */
+      this.$router.push({path:'/details',query:{id:id}})
+    },
     getArticle() {
       /**
        * @file: index.vue

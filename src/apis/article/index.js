@@ -13,3 +13,10 @@ export function article(data) {
     params:data
   })
 }
+export function articleInfo(data) {
+  return request({
+    url: 'mock/articleInfo',
+    method: 'GET',
+    params:data
+  })
+}

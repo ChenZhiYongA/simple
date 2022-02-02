@@ -8,5 +8,7 @@
 import Mock from 'mockjs'
 import tableData from './test/index'
 import articleList from './article/index'
+import articleInfo from './article/articleDetails'
 Mock.mock('mock/test', 'post', tableData)
 Mock.mock('mock/article', 'get', articleList)
+Mock.mock('mock/articleInfo', 'get', articleInfo)
