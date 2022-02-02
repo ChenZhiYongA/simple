@@ -1,6 +1,8 @@
 # simple Blog
 This's a simple Blog Project Use Simple Hand drawn style
-
+![](http://39.107.52.86/1.png)
+![](http://39.107.52.86/2.png)
+![](http://39.107.52.86/3.png)
 ## Project setup
 ```
 yarn install

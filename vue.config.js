@@ -1,4 +1,6 @@
 module.exports = {
+  publicPath: './',
+  productionSourceMap: false,
   pluginOptions: {
     i18n: {
       locale: 'en',
