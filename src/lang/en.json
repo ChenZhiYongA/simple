@@ -1,0 +1,24 @@
+{
+  "message": "English Lang Config Json",
+  "title": "Simple Blog",
+  "lang": [
+    {
+      "title": "Chinese-simple",
+      "value": "cn",
+      "flag": "🇨🇳"
+    },
+    {
+      "title": "English",
+      "value": "en",
+      "flag": "🇬🇧"
+    }
+  ],
+  "navTab": "About",
+  "Details": "Details",
+  "thank": "Thank For",
+  "aboutTable":["Name","Library","author"],
+  "time": "time",
+  "readmore":"Read More"
+
+
+}

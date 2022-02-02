@@ -1,5 +1,5 @@
-# simple
-a simple blog's project
+# simple Blog
+This's a simple Blog Project Use Simple Hand drawn style
 
 ## Project setup
 ```
@@ -26,4 +26,15 @@ yarn test:unit
 yarn lint
 ```
 
-### Customize configuration
+### Thank For
+> Font Style: Google Fonts Kimberly Geswein
+> 
+> Style Library: wired-elements、papercssCSS
+> 
+> Js Library: Vue
+> 
+> Mock Data: Mockjs
+> 
+> i18n: vue-i18n
+> 
+> 
