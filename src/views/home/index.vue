@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="row">
-      <div class="col-4 col" v-for="(item,index) in articleArr">
+      <div class="sm-6 md-4 lg-4 col" v-for="(item,index) in articleArr" :key="index">
         <wired-card cardelevation="5">
           <strong class="fontSize">{{item.Name}}</strong>
           <p>{{item.content | omitContent}}</p>
@@ -31,7 +31,7 @@ export default {
   },
   filters:{
     omitContent(e){
-      return e.slice(1, 100)
+      return e.slice(1, 100)+'……'
     }
   },
   methods: {

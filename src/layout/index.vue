@@ -18,9 +18,8 @@
 import Main from './components/Main';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Column from "./components/Column"
 export default {
-  components:{Main,Navbar,Footer,Column},
+  components:{Main,Navbar,Footer},
   name: "index"
 }
 </script>

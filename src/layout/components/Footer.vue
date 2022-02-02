@@ -6,7 +6,7 @@
           <ul>
             <li>ICP备xxxxxx</li>
             <li>author：Sira</li>
-            <li>MIT</li>
+            <li>MIT license</li>
           </ul>
         </div>
         <div class="col-4 col">
