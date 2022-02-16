@@ -15,7 +15,6 @@ This project can help you quickly build a blog website
 - [Background](#background)
 - [Install](#install)
 - [Usage](#usage)
-- [API](#api)
 - [Maintainers](#maintainers)
 - [Contributing](#contributing)
 - [License](#license)
@@ -25,15 +24,14 @@ This project can help you quickly build a blog website
 ## Install
 
 ```
-npm run serve
+yarn add
 ```
 
 ## Usage
 
 ```
+npm run serve
 ```
-
-## API
 
 ## Maintainers
 
