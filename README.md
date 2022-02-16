@@ -1,42 +1,50 @@
-# simple Blog
-This's a simple Blog Project Use Simple Hand drawn style
-![](http://39.107.52.86/1.png)
-![](http://39.107.52.86/2.png)
-![](http://39.107.52.86/3.png)
-## Project setup
+# simple
+
+![banner](http://39.107.52.86/1.png)
+
+TODO: Put more badges here.
+[![MIT compliant](https://img.shields.io/badge/open--source--protocol-MIT-green.svg?style=flat-square)]()
+[![MIT compliant](https://img.shields.io/badge/ChenZhiYongA-github-green.svg?style=flat-square)](https://github.com/ChenZhiYongA/simple)
+This&#39;s a simple Blog Project Use Simple Hand drawn style
+
+This project can help you quickly build a blog website
+
+## Table of Contents
+
+- [Security](#security)
+- [Background](#background)
+- [Install](#install)
+- [Usage](#usage)
+- [API](#api)
+- [Maintainers](#maintainers)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Background
+
+## Install
+
 ```
-yarn install
+npm run serve
 ```
 
-### Compiles and hot-reloads for development
+## Usage
+
 ```
-yarn serve
 ```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## API
 
-### Run your unit tests
-```
-yarn test:unit
-```
+## Maintainers
 
-### Lints and fixes files
-```
-yarn lint
-```
+[@ChenZhiYongA](https://github.com/ChenZhiYongA)
 
-### Thank For
-> Font Style: Google Fonts Kimberly Geswein
-> 
-> Style Library: wired-elements、papercssCSS
-> 
-> Js Library: Vue
-> 
-> Mock Data: Mockjs
-> 
-> i18n: vue-i18n
-> 
-> 
+## Contributing
+
+PRs accepted.
+
+Small note: If editing the README, please conform to the [standard-readme](https://github.com/RichardLitt/standard-readme) specification.
+
+## License
+
+MIT © 2022 ChenZhiYong
