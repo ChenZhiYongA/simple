@@ -2,7 +2,6 @@
 
 ![banner](http://39.107.52.86/1.png)
 
-TODO: Put more badges here.
 [![MIT compliant](https://img.shields.io/badge/open--source--protocol-MIT-green.svg?style=flat-square)]()
 [![MIT compliant](https://img.shields.io/badge/ChenZhiYongA-github-green.svg?style=flat-square)](https://github.com/ChenZhiYongA/simple)
 This&#39;s a simple Blog Project Use Simple Hand drawn style
